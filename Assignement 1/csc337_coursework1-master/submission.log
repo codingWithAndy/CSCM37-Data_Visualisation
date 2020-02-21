@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  19 FEB 2020 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.5)  21 FEB 2020 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,61 +672,57 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <Viz1.png, id=4, 2188.175pt x 641.39626pt>
 File: Viz1.png Graphic file (type png)
 <use Viz1.png>
-Package pdftex.def Info: Viz1.png  used on input line 13.
+Package pdftex.def Info: Viz1.png  used on input line 5.
 (pdftex.def)             Requested size: 426.79134pt x 125.09622pt.
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 13--14
-[] 
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 5--6
+ [] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 29.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-(./part1/design2.tex [1
-
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Viz1.
-png>]pdfTeX warning (ext4): destination with the same identifier (name{descript
-ion}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.10 ...ubsection{Description}\label{description}}
-                                                  
-<Viz2.png, id=24, 3247.63312pt x 1946.77313pt>
+(./part1/design2.tex
+<Viz2.png, id=6, 3247.63312pt x 1946.77313pt>
 File: Viz2.png Graphic file (type png)
 <use Viz2.png>
-Package pdftex.def Info: Viz2.png  used on input line 13.
+Package pdftex.def Info: Viz2.png  used on input line 5.
 (pdftex.def)             Requested size: 426.79134pt x 255.82228pt.
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 13--14
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 5--6
  [] 
  []
 
-[2 <./Viz2.png (PNG copy)>]) (./part1/design3.tex
-<Viz3.png, id=32, 2070.23438pt x 1946.77313pt>
+[1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Viz1.
+png>] [2pdfTeX warning (ext4): destination with the same identifier (name{descr
+iption}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.39 
+      <./Viz2.png (PNG copy)>]) (./part1/design3.tex
+<Viz3.png, id=30, 2070.23438pt x 1946.77313pt>
 File: Viz3.png Graphic file (type png)
 <use Viz3.png>
-Package pdftex.def Info: Viz3.png  used on input line 11.
-(pdftex.def)             Requested size: 426.79134pt x 401.31898pt.
-
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 11--12
- [] 
- []
-
+Package pdftex.def Info: Viz3.png  used on input line 5.
+(pdftex.def)             Requested size: 302.56128pt x 284.52756pt.
 pdfTeX warning (ext4): destination with the same identifier (name{description})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 ...ubsection{Description}\label{description}}
-                                                   [3] [4 <./Viz3.png (PNG copy
-)>]) (./part1/design4.tex
-<Viz4.png, id=45, 3206.98125pt x 1970.86313pt>
+l.8 ...subsection{Description}\label{description}}
+                                                   [3 <./Viz3.png (PNG copy)>])
+(./part1/design4.tex
+<Viz4.png, id=38, 2282.5275pt x 1398.72563pt>
 File: Viz4.png Graphic file (type png)
 <use Viz4.png>
-Package pdftex.def Info: Viz4.png  used on input line 11.
-(pdftex.def)             Requested size: 426.79134pt x 262.26585pt.
+Package pdftex.def Info: Viz4.png  used on input line 5.
+(pdftex.def)             Requested size: 426.79134pt x 261.53476pt.
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 11--12
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 5--6
  [] 
  []
 
@@ -734,16 +730,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{description})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 ...ubsection{Description}\label{description}}
-                                                   [5 <./Viz4.png (PNG copy)>])
+l.8 ...subsection{Description}\label{description}}
+                                                   [4 <./Viz4.png (PNG copy)>])
 (./part1/design5.tex
-<Viz5.png, id=53, 3246.1275pt x 1946.77313pt>
+<Viz5.png, id=46, 3246.1275pt x 1946.77313pt>
 File: Viz5.png Graphic file (type png)
 <use Viz5.png>
-Package pdftex.def Info: Viz5.png  used on input line 11.
+Package pdftex.def Info: Viz5.png  used on input line 5.
 (pdftex.def)             Requested size: 426.79134pt x 255.9411pt.
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 11--12
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 5--6
  [] 
  []
 
@@ -751,52 +747,64 @@ pdfTeX warning (ext4): destination with the same identifier (name{description})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 ...ubsection{Description}\label{description}}
-                                                   [6 <./Viz5.png (PNG copy)>])
-(./part2/treemap1.tex) (./part2/treemap2.tex [7]) (./part3/p3.tex
-<Question.png, id=74, 852.18375pt x 1115.16624pt>
+l.8 ...subsection{Description}\label{description}}
+                                                   [5 <./Viz5.png (PNG copy)>])
+[6] (./part2/treemap1.tex
+<AmericaEstGeneration.png, id=58, 1559.8275pt x 977.15062pt>
+File: AmericaEstGeneration.png Graphic file (type png)
+<use AmericaEstGeneration.png>
+Package pdftex.def Info: AmericaEstGeneration.png  used on input line 10.
+(pdftex.def)             Requested size: 426.79134pt x 267.35298pt.
+
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 10--11
+ [] 
+ []
+
+) [7
+
+ <./AmericaEstGeneration.png (PNG copy)>] (./part3/p3.tex
+<Question.png, id=66, 852.18375pt x 1115.16624pt>
 File: Question.png Graphic file (type png)
 <use Question.png>
-Package pdftex.def Info: Question.png  used on input line 7.
-(pdftex.def)             Requested size: 426.79134pt x 558.50063pt.
-<answer.png, id=75, 794.97pt x 577.15625pt>
-File: answer.png Graphic file (type png)
-<use answer.png>
-Package pdftex.def Info: answer.png  used on input line 8.
-(pdftex.def)             Requested size: 426.79134pt x 309.86316pt.
+Package pdftex.def Info: Question.png  used on input line 16.
+(pdftex.def)             Requested size: 326.13477pt x 426.79134pt.
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 7--9
+Overfull \hbox (6.1348pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
+<answer.png, id=67, 794.97pt x 577.15625pt>
+File: answer.png Graphic file (type png)
+<use answer.png>
+Package pdftex.def Info: answer.png  used on input line 23.
+(pdftex.def)             Requested size: 235.14488pt x 170.71652pt.
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 7--9
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 343.30821pt on input line 10.
+LaTeX Warning: Float too large for page by 134.33162pt on input line 39.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
- [8] [9 <./Question.png> <./answer.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+ [8
+
+] [9
+
+ <./Question.png> <./answer.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (./submission.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 66.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 68.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12532 strings out of 492616
- 182151 string characters out of 6129480
- 291322 words of memory out of 5000000
- 16174 multiletter control sequences out of 15000+600000
- 36621 words of font info for 57 fonts, out of 8000000 for 9000
+ 12518 strings out of 492616
+ 182096 string characters out of 6129481
+ 288329 words of memory out of 5000000
+ 16176 multiletter control sequences out of 15000+600000
+ 36455 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,38p,809b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,6n,38p,809b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2019/texmf-dist
@@ -804,10 +812,10 @@ texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2019/texmf-dist
 e1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
 m/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 >
-Output written on submission.pdf (9 pages, 3954670 bytes).
+Output written on submission.pdf (9 pages, 4087684 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 8332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 8329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
