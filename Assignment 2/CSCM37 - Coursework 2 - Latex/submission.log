@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.5)  16 MAR 2020 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  16 MAR 2020 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,27 +731,28 @@ d
                    \relax 
 l.8 ...subsection{Description}\label{description}}
                                                   
-<Tooth1.png, id=38, 301.125pt x 380.42125pt>
-File: Tooth1.png Graphic file (type png)
-<use Tooth1.png>
-Package pdftex.def Info: Tooth1.png  used on input line 12.
-(pdftex.def)             Requested size: 256.0748pt x 323.53952pt.
-) (./part2/image4.texpdfTeX warning (ext4): destination with the same identifie
-r (name{description}) has been already used, duplicate ignored
+<Tooth3.png, id=38, 400.49625pt x 557.08125pt>
+File: Tooth3.png Graphic file (type png)
+<use Tooth3.png>
+Package pdftex.def Info: Tooth3.png  used on input line 12.
+(pdftex.def)             Requested size: 256.0748pt x 356.21628pt.
+ [4
+
+ <./Tooth3.png>])
+(./part2/image4.texpdfTeX warning (ext4): destination with the same identifier 
+(name{description}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.8 ...subsection{Description}\label{description}}
-                                                   [4
-
- <./Tooth1.png>]
-<Tooth2.png, id=48, 342.27875pt x 331.2375pt>
+                                                  
+<Tooth2.png, id=47, 342.27875pt x 331.2375pt>
 File: Tooth2.png Graphic file (type png)
 <use Tooth2.png>
 Package pdftex.def Info: Tooth2.png  used on input line 12.
 (pdftex.def)             Requested size: 256.0748pt x 247.8311pt.
-) [5 <./Tooth2.png>] (./part3/image1.texpdfTeX warning (ext4): destination with
- the same identifier (name{description}) has been already used, duplicate ignor
-ed
+) [5 <./Tooth2.png>]
+(./part3/image1.texpdfTeX warning (ext4): destination with the same identifier 
+(name{description}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 ...subsection{Description}\label{description}}
@@ -782,13 +783,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12542 strings out of 492616
- 182404 string characters out of 6129481
+ 12544 strings out of 492616
+ 182426 string characters out of 6129480
  289558 words of memory out of 5000000
  16213 multiletter control sequences out of 15000+600000
- 35957 words of font info for 49 fonts, out of 8000000 for 9000
+ 36040 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,38p,809b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,6n,38p,809b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2019/texmf-dist
@@ -796,7 +797,7 @@ texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2019/texmf-dist
 e1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
 m/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 >
-Output written on submission.pdf (6 pages, 1289088 bytes).
+Output written on submission.pdf (6 pages, 1552272 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams
