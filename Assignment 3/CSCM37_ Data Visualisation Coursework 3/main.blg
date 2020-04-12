@@ -2,45 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: acm.bst
+I found no \citation commands---while reading file main.aux
 Database file #1: samples.bib
-You've used 11 entries,
+You've used 0 entries,
             2253 wiz_defined-function locations,
-            855 strings with 11467 characters,
-and the built_in function-call counts, 4319 in all, are:
-= -- 388
-> -- 262
+            790 strings with 9292 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
 < -- 0
-+ -- 107
-- -- 96
-* -- 340
-:= -- 709
-add.period$ -- 33
-call.type$ -- 11
-change.case$ -- 76
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 163
-empty$ -- 317
-format.name$ -- 96
-if$ -- 885
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 13
-newline$ -- 58
-num.names$ -- 22
-pop$ -- 103
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 0
 quote$ -- 0
-skip$ -- 102
+skip$ -- 1
 stack$ -- 0
-substring$ -- 201
-swap$ -- 47
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 38
+type$ -- 0
 warning$ -- 0
-while$ -- 35
-width$ -- 13
-write$ -- 112
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There was 1 error message)
