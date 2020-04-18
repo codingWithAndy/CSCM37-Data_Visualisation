@@ -1,3 +1,163 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{3}
+{\sc Azencot, O., Ben-Chen, M., Chazal, F., and Ovsjanikov, M.}
+\newblock An operator approach to tangent vector field processing.
+\newblock In {\em Computer Graphics Forum\/} (2013), vol.~32, Wiley Online
+  Library, pp.~73--82.
+
+\bibitem{4}
+{\sc Azencot, O., Ovsjanikov, M., Chazal, F., and Ben-Chen, M.}
+\newblock Discrete derivatives of vector fields on surfaces--an operator
+  approach.
+\newblock {\em ACM Transactions on Graphics (TOG) 34}, 3 (2015), 1--13.
+
+\bibitem{6}
+{\sc Ben-Chen, M., Butscher, A., Solomon, J., and Guibas, L.}
+\newblock On discrete killing vector fields and patterns on surfaces.
+\newblock In {\em Computer Graphics Forum\/} (2010), vol.~29, Wiley Online
+  Library, pp.~1701--1711.
+
+\bibitem{7}
+{\sc Bhatia, H., Norgard, G., Pascucci, V., and Bremer, P.-T.}
+\newblock The helmholtz-hodge decomposition—a survey.
+\newblock {\em IEEE Transactions on visualization and computer graphics 19}, 8
+  (2012), 1386--1404.
+
+\bibitem{8}
+{\sc Bhatia, H., Pascucci, V., and Bremer, P.-T.}
+\newblock The natural helmholtz-hodge decomposition for open-boundary flow
+  analysis.
+\newblock {\em IEEE transactions on visualization and computer graphics 20}, 11
+  (2014), 1566--1578.
+
+\bibitem{9}
+{\sc Bhatia, H., Pascucci, V., Kirby, R.~M., and Bremer, P.-T.}
+\newblock Extracting features from time-dependent vector fields using internal
+  reference frames.
+\newblock In {\em Computer graphics forum\/} (2014), vol.~33, Wiley Online
+  Library, pp.~21--30.
+
+\bibitem{10}
+{\sc Bujack, R., Hlawitschka, M., and Joy, K.~I.}
+\newblock Topology-inspired galilean invariant vector field analysis.
+\newblock In {\em 2016 IEEE Pacific Visualization Symposium (PacificVis)\/}
+  (2016), IEEE, pp.~72--79.
+
+\bibitem{13}
+{\sc Chan, K.~Y., and Wan, J.~W.}
+\newblock Reconstruction of missing cells by a killing energy minimizing
+  nonrigid image registration.
+\newblock In {\em 2013 35th Annual International Conference of the IEEE
+  Engineering in Medicine and Biology Society (EMBC)\/} (2013), IEEE,
+  pp.~3000--3003.
+
+\bibitem{14}
+{\sc de~Goes, F., Liu, B., Budninskiy, M., Tong, Y., and Desbrun, M.}
+\newblock Discrete 2-tensor fields on triangulations.
+\newblock In {\em Computer Graphics Forum\/} (2014), vol.~33, Wiley Online
+  Library, pp.~13--24.
+
+\bibitem{33}
+{\sc Esturo, J.~M., R{\"o}ssl, C., and Theisel, H.}
+\newblock Generalized metric energies for continuous shape deformation.
+\newblock In {\em International Conference on Mathematical Methods for Curves
+  and Surfaces\/} (2012), Springer, pp.~135--157.
+
+\bibitem{16}
+{\sc Frankel, T.}
+\newblock {\em The geometry of physics: an introduction}.
+\newblock Cambridge university press, 2011.
+
+\bibitem{17}
+{\sc G{\"u}nther, T., Gross, M., and Theisel, H.}
+\newblock Generic objective vortices for flow visualization.
+\newblock {\em ACM Transactions on Graphics (TOG) 36}, 4 (2017), 1--11.
+
+\bibitem{18}
+{\sc G{\"u}nther, T., Schulze, M., and Theisel, H.}
+\newblock Rotation invariant vortices for flow visualization.
+\newblock {\em IEEE transactions on visualization and computer graphics 22}, 1
+  (2015), 817--826.
+
+\bibitem{19}
+{\sc G{\"u}nther, T., and Theisel, H.}
+\newblock The state of the art in vortex extraction.
+\newblock In {\em Computer Graphics Forum\/} (2018), vol.~37, Wiley Online
+  Library, pp.~149--173.
+
+\bibitem{papertitle}
+{\sc Hadwiger, M., Mlejnek, M., Theu{\ss}l, T., and Rautek, P.}
+\newblock Time-dependent flow seen through approximate observer killing fields.
+\newblock {\em IEEE transactions on visualization and computer graphics 25}, 1
+  (2018), 1257--1266.
+
+\bibitem{20}
+{\sc Haller, G.}
+\newblock An objective definition of a vortex.
+\newblock {\em Journal of fluid mechanics 525\/} (2005), 1--26.
+
+\bibitem{21}
+{\sc Haller, G., Hadjighasem, A., Farazmand, M., and Huhn, F.}
+\newblock Defining coherent vortices objectively from the vorticity.
+\newblock {\em Journal of Fluid Mechanics 795\/} (2016), 136--173.
+
+\bibitem{22}
+{\sc Holzapfel, A.~G.}
+\newblock Nonlinear solid mechanics: A continuum approachfor engineering.
+
+\bibitem{25}
+{\sc Jeevanjee, N.}
+\newblock {\em An introduction to tensors and group theory for physicists}.
+\newblock Springer, 2011.
+
+\bibitem{28}
+{\sc Kilian, M., Mitra, N.~J., and Pottmann, H.}
+\newblock Geometric modeling in shape space.
+\newblock In {\em ACM SIGGRAPH 2007 papers}. 2007, pp.~64--72.
+
+\bibitem{29}
+{\sc Lee, J.~M.}
+\newblock Smooth manifolds.
+\newblock In {\em Introduction to Smooth Manifolds}. Springer, 2013, pp.~1--31.
+
+\bibitem{32}
+{\sc Marsden, J.~E., and Hughes, T.~J.}
+\newblock {\em Mathematical foundations of elasticity}.
+\newblock Courier Corporation, 1994.
+
+\bibitem{35}
+{\sc Ogden, R.~W.}
+\newblock {\em Non-linear elastic deformations}.
+\newblock Courier Corporation, 1997.
+
+\bibitem{40}
+{\sc Shadden, S.~C.}
+\newblock {\em A dynamical systems approach to unsteady systems}.
+\newblock PhD thesis, California Institute of Technology, 2006.
+
+\bibitem{43}
+{\sc Solomon, J., Ben-Chen, M., Butscher, A., and Guibas, L.}
+\newblock As-killing-as-possible vector fields for planar deformation.
+\newblock In {\em Computer Graphics Forum\/} (2011), vol.~30, Wiley Online
+  Library, pp.~1543--1552.
+
+\bibitem{44}
+{\sc Sujudi, D., and Haimes, R.}
+\newblock Identification of swirling flow in 3-d vector fields.
+\newblock In {\em 12th Computational Fluid Dynamics Conference\/} (1995),
+  p.~1715.
+
+\bibitem{46}
+{\sc Truesdell, C., and Noll, W.}
+\newblock The non-linear field theories of mechanics.
+\newblock In {\em The non-linear field theories of mechanics}. Springer, 2004,
+  pp.~1--579.
+
+\bibitem{50}
+{\sc Weinkauf, T., Sahner, J., Theisel, H., and Hege, H.-C.}
+\newblock Cores of swirling particle motion in unsteady flows.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics 13}, 6
+  (2007), 1759--1766.
 
 \end{thebibliography}

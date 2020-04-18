@@ -2,47 +2,54 @@ This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: acm.bst
-I found no \citation commands---while reading file main.aux
 Database file #1: samples.bib
-You've used 0 entries,
+Warning--can't use both volume and number fields in 3
+Warning--can't use both volume and number fields in 6
+Warning--can't use both volume and number fields in 9
+Warning--can't use both volume and number fields in 14
+Warning--can't use both volume and number fields in 19
+Warning--empty journal in 22
+Warning--empty publisher in 28
+Warning--can't use both volume and number fields in 43
+You've used 28 entries,
             2253 wiz_defined-function locations,
-            790 strings with 9292 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            941 strings with 13290 characters,
+and the built_in function-call counts, 10671 in all, are:
+= -- 1062
+> -- 436
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 189
+- -- 152
+* -- 793
+:= -- 1635
+add.period$ -- 86
+call.type$ -- 28
+change.case$ -- 155
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 36
+duplicate$ -- 445
+empty$ -- 886
+format.name$ -- 152
+if$ -- 2296
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 28
+missing$ -- 31
+newline$ -- 142
+num.names$ -- 56
+pop$ -- 187
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 132
 quote$ -- 0
-skip$ -- 1
+skip$ -- 313
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 724
+swap$ -- 153
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+type$ -- 104
+warning$ -- 8
+while$ -- 111
+width$ -- 30
+write$ -- 300
+(There were 8 warnings)

@@ -6,30 +6,43 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{titling}
 
+\usepackage{fancyheadings}
+\usepackage{ifthen}
+\usepackage{titlesec}
+
+\setlength{\textheight}{9.7in}
+
 \parskip .4ex
-\setlength{\droptitle}{-16em}
+%\setlength{\droptitle}{-16em}
 
 %Begining of the document
 \begin{document}
 
-\title{\textbf{CSCM37: Data Visualisation \\Coursework 3}}
+\title{\textbf{CSCM37: Data Visualisation \\Coursework 3\\Time-Dependent Flow seen through Approximate Observer Killing Fields \cite{papertitle}}}
 \author{Andy Gray 445348\\}
 \date{05/05/20}
 
-\renewcommand\maketitlehookc{\vspace{-12ex}}
+%\renewcommand\maketitlehookc{\vspace{-12ex}}
+
 
 \maketitle
 
-Paper Title: Time-Dependent Flow seen through Approximate Observer Killing Fields
+\thispagestyle{empty}
+\newpage
+\pagenumbering{arabic}
+
+\setlength{\topmargin}{-0.7in} 
 
 \section{Summary of Concept (or Problem Statement)}
 %Your two page summary must contain a conceptual summary of the assigned paper. Which category of vector field visualization does this paper fall into? What are the authors trying to achieve at a conceptual level? What is the goal of the work?
 
-Flow fields usually are visualised in relative to a global observer, or a single frame of reference. Objective criteria for detecting features such as vortices, also has a similar issue, as it relies on the use of a global reference point or separate references for each point in space and time. However, the authors claim that no global frame can show all flow features well equally. Therefore the authors propose a framework that allows a smooth trade-off between the two extremes. A novel notion of observation has been developed to observe the time derivative. This development restricts individual movements to rigid motions, while overall computing the killing field approximately, in a matching rigid like motion. Instead of focusing on flow features, the framework enables continuous transition between the observers visualising how all observers jointly perceive the input field. In order to do this, a concept of observation time is introduced. Observation time creates a visualisation by using the corresponding stream, path, streak and timelines. These characteristics are computed using standard techniques, but the input field must be transformed as accordingly. Therefore, derived flow features, such as vortices and input flow that are perceived by the observer, get classed as objective. 
+\small 
+Flow fields usually are visualised in relative to a global observer, or a single frame of reference. Objective criteria for detecting features such as vortices, also has a similar issue, as it relies on the use of a global reference point or separate references for each point in space and time. However, the authors claim that no global frame can show all flow features well equally. Therefore the authors propose a framework that allows a smooth trade-off between the two extremes. A novel notion of observation has been developed to observe the time derivative. This development restricts individual movements to rigid motions, while overall computing the killing field approximately, in a matching rigid like motion. Instead of focusing on flow features, the framework enables continuous transition between the observers visualising how all observers jointly perceive the input field. In order to do this, a concept of observation time is introduced. Observation time creates a visualisation by using the corresponding stream, path, streak and timelines. These characteristics are computed using standard techniques, but the input field must be transformed as accordingly. Therefore, derived flow features, such as vortices and input flow that are perceived by the observer, get classed as objective.
 
 \section{Contributions}
 %What is (are) the contribution(s) of the paper? Are they given explicitly or do they have to be extracted by the reader? In other words, what is the novelty? What do the authors present that is new (never been presented prior to the publication of this paper)?
-One observer and its rigid motion are not flexible enough [17, 19], so the authors propose to use an approximate killing field instead of an exact one, observer field $u$. However, for this to be meaningful with respect to a general observer field u, we have to define a suitably generalised concept of an observer-relative time derivative of the input field v with respect to u. We call this the observed time derivative that we construct by building on the general concept of the Lie derivative from differential geometry [16, 29, 32].
+
+One observer and its rigid motion are not flexible enough \cite{17, 19}, so the authors propose to use an approximate killing field instead of an exact one, observer field $u$. However, for this to be meaningful with respect to a general observer field $u$, we have to define a suitably generalised concept of an observer-relative time derivative of the input field $v$ with respect to $u$. We call this the observed time derivative that we construct by building on the general concept of the Lie derivative from differential geometry \cite{16, 29, 32}.
 
 The main contributions are split into two key stages. Stage one introduces a generalisation of the standard streamlines, pathlines, streak lines, and timelines by introducing the concept of observation time. Which involves computing a visualisation of a relative observer field, as at the observes move as well an observer related visualisation will be different. While aiming to approximate killing fields, the generalisations work for any general observer field as well. Stage two is applying the observer velocity field to the objective computation of vortices, which is enabled as the optimisation is guaranteed to find the same unique observed field for any given input flow, for a chosen optimisation parameter.
 
@@ -38,29 +51,36 @@ The main contributions are split into two key stages. Stage one introduces a gen
 
 The paper related work references five related topics. These topics are Euclidean observers; Multiple observers; Flow decomposition; Vortex detection; Killing fields.
 
-The concept of a Euclidean observer within space is vital in fluid mechanics [20] and within flow visualisation [17]. The author reference Truesdell and Noll [46] in regards to their work with continuum mechanics. With further references to Holzapfel and Ogden [22, 35] for their more detailed work, all about defining a transformation between two observers.
+The concept of a Euclidean observer within space is vital in fluid mechanics \cite{20} and within flow visualisation \cite{17}. The author reference Truesdell and Noll \cite{46} in regards to their work with continuum mechanics. With further references to Holzapfel and Ogden \cite{22, 35} for their more detailed work, all about defining a transformation between two observers.
 
-A Galilean-invariant vortex detection method first proposed by Weinkauf et al. [50]. This multiple observer, which was not originally presented as such, computes at each point in time and space a different constant velocity observer. While each method is not objective, they compute each observer separately. The author states that Gunther et al. [17] use optimisation to compute different rigid-motion observers. Again all observations are computed individually. They are optimised over a large constant-size neighbourhood. With additional references to Bujack et al. [10], who consider multiple observers via a weighted average of vector fields seen from a finite number of certain Galileaninvariant critical points.
+A Galilean-invariant vortex detection method first proposed by Weinkauf et al. \cite{50}. This multiple observer, which was originally not presented as such, computes at each point in time and space a different constant velocity observer. While each method is not objective, they compute each observer separately. The author states that Gunther et al. \cite{17} use optimisation to compute different rigid-motion observers. Again all observations are computed individually. They are optimised over a large constant-size neighbourhood. With additional references to Bujack et al. \cite{10}, who consider multiple observers via a weighted average of vector fields seen from a finite number of certain Galileaninvariant critical points.
 
-HelmholtzHodge decomposition [7, 8], flow decomposition can also be used to remove background flow, corresponding to the harmonic component [9]. While also referencing Sujudi and Haimes [44], LAVD criterion of Haller et al. [21]. However, Gunther et al. [17, 18] work on vortex detection, is the main style being used based on its ability to compute an objective's velocity field and its derivatives, which will make all the criteria computed from the properties automatically.
+HelmholtzHodge decomposition \cite{7, 8}, flow decomposition can also be used to remove background flow, corresponding to the harmonic component \cite{9}. While also referencing Sujudi and Haimes \cite{44}, LAVD criterion of Haller et al. \cite{21}. However, Gunther et al. \cite{17, 18} work on vortex detection, is the main style being used based on its ability to compute an objective's velocity field and its derivatives, which will make all the criteria computed from the properties automatically.
 
-The final related work is Killing fields. These are vector fields that induce flow that preserves the distance, infinitesimal isometries. These correspond to the derivates, in the euclidean space, of all the rigid motions. Approximate Killing fields have been used in shape deformation [33], shape space exploration [28], planar as-Killing-as-possible vector fields [43], on curved surfaces [6], and for designing approximate Killing fields on meshes [3, 4]. Approximate Killing fields have also been used for the decomposition of 2-tensors in a compact region of 2D Euclidean space [14], and for non-rigid image registration [13].
+The final related work is Killing fields. These are vector fields that induce flow that preserves the distance, infinitesimal isometries. These correspond to the derivates, in the euclidean space, of all the rigid motions. Approximate Killing fields have been used in shape deformation \cite{33}, shape space exploration \cite{28}, planar as-Killing-as-possible vector fields \cite{43}, on curved surfaces \cite{6}, and for designing approximate Killing fields on meshes \cite{3, 4}. Approximate Killing fields have also been used for the decomposition of 2-tensors in a compact region of 2D Euclidean space \cite{14}, and for non-rigid image registration \cite{13}.
+
 
 \section{Summary of Implementation}
 %Your summary contains a brief description of theimplementation. You are not expected to under-stand all of the implementation detail of any paper but the basic strategy is conveyed.
 
+The implementation creates a general framework to visualise the input field $v$ relative to the observer field $u$. However, this needed to be done without the concept of a specific time for which the visualisation is computed. This specific time concept observation is referenced as $r$. 
+
+The visualisation of the same trajectory depends, on the choice of $r$. It is not restricted to a specific characteristic curve, which is also the case for streamlines, pathlines, streak lines, and timelines. In the case when $u$ is Killing, visualisations of the same trajectory observed at different $r$ will still be different. However, the isometries will be the same, which corresponds to the symmetry group of Euclidean space \cite{25}. 
 
 \section{Summary of Results}
 %The summary contains a brief description of the results. Are the performance times given? Are data set sizes provided? What are the characteristics of the data set tested?
 
-While using MATLAB for the implementation,  a solution for the sparse linear system with a pre-conditioned incomplete Cholesky conjugate gradient solver, which illustrated the observer field-relative visualisation and objective vortex detection by using standard vortex measures. The author achieved this by using the optimisation as well as the computation of $w_r$ (observation time field). The authors were able to pinpoint the vortex cores for four centers with object core lines with a grid resolution of 64x64, time steps of 64, $u(x,t)$ 2:15 min and $w_r(x,t)$ 47 sec; Observer-related visualisation of core lines and swirling particles with a grid resolution of 390x210, time steps of 14, $u(x,t)$ 3 min and $w_r(x,t)$ 67 sec; 2D time-dependent vortex street with a grid resolution of 400x50, time steps of 1001, $u(x,t)$ 2:24 min and $w_r(x,t)$ 1:00 hrs; 3D time-dependent vortex street with a grid resolution of 192x64x48, time steps of 102, $u(x,t)$ 7:12 hrs.
+While using MATLAB for the implementation,  a solution for the sparse linear system with a pre-conditioned incomplete Cholesky conjugate gradient solver, which illustrated the observer field-relative visualisation and objective vortex detection by using standard vortex measures. The author achieved this by using the optimisation as well as the computation of $w_r$ (observation time field). The authors were able to pinpoint the vortex cores for four centers with object core lines with a grid resolution of 64x64, time steps of 64, $u(x,t)$ 2:15 min and $w_r(x,t)$ 47 sec; Observer-related visualisation of core lines and swirling particles with a grid resolution of 390x210, time steps of 14, $u(x,t)$ 3 min and $w_r(x,t)$ 67 sec; 2D time-dependent vortex street with a grid resolution of 400x50, time steps of 1001, $u(x,t)$ 2:24 min and $W_r(x,t)$ 1:00 hrs; 3D time-dependent vortex street with a grid resolution of 192x64x48, time steps of 102, $u(x,t)$ 7:12 hrs. However, the approach only requires first-order derivatives which estimate the flow differentials via central differences which are common in FTLE computations \cite{40}.
+
+%The meaning of an observation time field $w_r$ is that it is the input vector field $v$, as it is perceived by the observers described by $u$, with respect to where these observers were at the chosen observation time $r$. 
 
 \section{Analysis and Discussion}
 %What are the disadvantages of the proposed method? Does it have any flaws or shortcomings? Does it have any limitations? This information is more difficult to extract from the paper as the authors may being trying to hide it.
 
-The initial proof-of-concept provided benefits, but it could be optimised even further. A limitation is that computation time goes up as the time sequence gets longer. It was also observed, initially, that rigid body rotation had a velocity magnitude profile modulated by a horizontal wave function which created an unsteady input field $v$.
+The initial proof-of-concept provided benefits, but it could be optimised even further. A limitation is that computation time goes up as the time sequence gets longer. An observation made was that rigid body rotation had a velocity magnitude profile modulated by a horizontal wave function which created an unsteady input field $v$.
 
-The authors have been able to make their framework work globally, but implicitly still adapts locally. Unlike the approach of Gunther et al. [17] depends on a fixed neighbourhood size that is not adapted, showing that the framework is a significant benefit.
+The authors have been able to make their framework work globally, but implicitly still adapts locally. Unlike the approach of Gunther et al. \cite{17} depends on a fixed neighbourhood size that is not changed, showing that the framework is a significant benefit.
+
 
 %\section{References}
 %Your two page summary contains references and uses citations. It cites the paper you have been given.
@@ -73,5 +93,7 @@ The authors have been able to make their framework work globally, but implicitly
 %bibliography file "samples.bib".
 \bibliographystyle{acm}
 \bibliography{samples}
+
+Note: References blah blah are personaly sourced.
 
 \end{document}
