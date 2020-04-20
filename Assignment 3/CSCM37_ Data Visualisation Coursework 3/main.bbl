@@ -38,6 +38,13 @@
 \newblock In {\em Computer graphics forum\/} (2014), vol.~33, Wiley Online
   Library, pp.~21--30.
 
+\bibitem{extra2}
+{\sc Bujack, R., Dutta, S., Zhang, D., and G{\"u}nther, T.}
+\newblock Objective finite-time flow topology from flowmap expansion and
+  contraction.
+\newblock {\em Topology-based methods in visualization (TopoInVis 2019)
+  Nyk{\"o}ping, Sweden\/} (2019).
+
 \bibitem{10}
 {\sc Bujack, R., Hlawitschka, M., and Joy, K.~I.}
 \newblock Topology-inspired galilean invariant vector field analysis.
@@ -68,6 +75,16 @@
 {\sc Frankel, T.}
 \newblock {\em The geometry of physics: an introduction}.
 \newblock Cambridge university press, 2011.
+
+\bibitem{extra4}
+{\sc Gleicher, M., von Antburg, T.~L., and Viola, I.}
+\newblock Extraction of distinguished hyperbolic trajectories for 2d
+  time-dependent vector field topology.
+
+\bibitem{extra5}
+{\sc G{\"u}nther, T.}
+\newblock Visibility, topology, and inertia: new methods in flow visualization.
+\newblock {\em IEEE computer graphics and applications 40}, 2 (2020), 103--111.
 
 \bibitem{17}
 {\sc G{\"u}nther, T., Gross, M., and Theisel, H.}
@@ -116,6 +133,13 @@
 \newblock Geometric modeling in shape space.
 \newblock In {\em ACM SIGGRAPH 2007 papers}. 2007, pp.~64--72.
 
+\bibitem{extra1}
+{\sc Kim, B., and G{\"u}nther, T.}
+\newblock Robust reference frame extraction from unsteady 2d vector fields with
+  convolutional neural networks.
+\newblock In {\em Computer Graphics Forum\/} (2019), vol.~38, Wiley Online
+  Library, pp.~285--295.
+
 \bibitem{29}
 {\sc Lee, J.~M.}
 \newblock Smooth manifolds.
@@ -130,6 +154,13 @@
 {\sc Ogden, R.~W.}
 \newblock {\em Non-linear elastic deformations}.
 \newblock Courier Corporation, 1997.
+
+\bibitem{extra3}
+{\sc Rojo, I.~B., and G{\"u}nther, T.}
+\newblock Vector field topology of time-dependent flows in a steady reference
+  frame.
+\newblock {\em IEEE transactions on visualization and computer graphics 26}, 1
+  (2019), 280--290.
 
 \bibitem{40}
 {\sc Shadden, S.~C.}

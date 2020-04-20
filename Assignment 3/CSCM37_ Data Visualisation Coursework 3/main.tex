@@ -63,14 +63,17 @@ The final related work is Killing fields. These are vector fields that induce fl
 \section{Summary of Implementation}
 %Your summary contains a brief description of theimplementation. You are not expected to under-stand all of the implementation detail of any paper but the basic strategy is conveyed.
 
+While using MATLAB for the implementation, the author was able to create a solution for the sparse linear system with a pre-conditioned incomplete Cholesky conjugate gradient solver, which illustrated the observer field-relative visualisation and objective vortex detection by using standard vortex measures. The author achieved this by using the optimisation as well as the computation of $w_r$ (observation time field).
+
 The implementation creates a general framework to visualise the input field $v$ relative to the observer field $u$. However, this needed to be done without the concept of a specific time for which the visualisation is computed. This specific time concept observation is referenced as $r$. 
 
 The visualisation of the same trajectory depends, on the choice of $r$. It is not restricted to a specific characteristic curve, which is also the case for streamlines, pathlines, streak lines, and timelines. In the case when $u$ is Killing, visualisations of the same trajectory observed at different $r$ will still be different. However, the isometries will be the same, which corresponds to the symmetry group of Euclidean space \cite{25}. 
 
+
 \section{Summary of Results}
 %The summary contains a brief description of the results. Are the performance times given? Are data set sizes provided? What are the characteristics of the data set tested?
 
-While using MATLAB for the implementation,  a solution for the sparse linear system with a pre-conditioned incomplete Cholesky conjugate gradient solver, which illustrated the observer field-relative visualisation and objective vortex detection by using standard vortex measures. The author achieved this by using the optimisation as well as the computation of $w_r$ (observation time field). The authors were able to pinpoint the vortex cores for four centers with object core lines with a grid resolution of 64x64, time steps of 64, $u(x,t)$ 2:15 min and $w_r(x,t)$ 47 sec; Observer-related visualisation of core lines and swirling particles with a grid resolution of 390x210, time steps of 14, $u(x,t)$ 3 min and $w_r(x,t)$ 67 sec; 2D time-dependent vortex street with a grid resolution of 400x50, time steps of 1001, $u(x,t)$ 2:24 min and $W_r(x,t)$ 1:00 hrs; 3D time-dependent vortex street with a grid resolution of 192x64x48, time steps of 102, $u(x,t)$ 7:12 hrs. However, the approach only requires first-order derivatives which estimate the flow differentials via central differences which are common in FTLE computations \cite{40}.
+The authors were able to pinpoint the vortex cores for four centers with object core lines with a grid resolution of 64x64, time steps of 64, $u(x,t)$ 2:15 min and $w_r(x,t)$ 47 sec; Observer-related visualisation of core lines and swirling particles with a grid resolution of 390x210, time steps of 14, $u(x,t)$ 3 min and $w_r(x,t)$ 67 sec; 2D time-dependent vortex street with a grid resolution of 400x50, time steps of 1001, $u(x,t)$ 2:24 min and $W_r(x,t)$ 1:00 hrs; 3D time-dependent vortex street with a grid resolution of 192x64x48, time steps of 102, $u(x,t)$ 7:12 hrs. However, the approach only requires first-order derivatives which estimate the flow differentials via central differences which are common in FTLE computations \cite{40}.
 
 %The meaning of an observation time field $w_r$ is that it is the input vector field $v$, as it is perceived by the observers described by $u$, with respect to where these observers were at the chosen observation time $r$. 
 
@@ -79,7 +82,9 @@ While using MATLAB for the implementation,  a solution for the sparse linear sys
 
 The initial proof-of-concept provided benefits, but it could be optimised even further. A limitation is that computation time goes up as the time sequence gets longer. An observation made was that rigid body rotation had a velocity magnitude profile modulated by a horizontal wave function which created an unsteady input field $v$.
 
-The authors have been able to make their framework work globally, but implicitly still adapts locally. Unlike the approach of Gunther et al. \cite{17} depends on a fixed neighbourhood size that is not changed, showing that the framework is a significant benefit.
+The authors have been able to make their framework work globally, but implicitly still adapts locally. Unlike the approach of Gunther et al. \cite{17}, which depends on a fixed neighbourhood size that is not changed, showing that the framework is a significant benefit.
+
+This paper has been one of the critical aspects for an additional five papers \cite{extra1, extra2, extra3, extra4, extra5}. All these papers focus on how they can visualise 2D time-dependent vector field topology, which this paper's solution has enabled the ability for them to happen.
 
 
 %\section{References}
@@ -94,6 +99,6 @@ The authors have been able to make their framework work globally, but implicitly
 \bibliographystyle{acm}
 \bibliography{samples}
 
-Note: References blah blah are personaly sourced.
+Note: References 24, 7, 28, 13, 14 have been personally sourced.
 
 \end{document}
